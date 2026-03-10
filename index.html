@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Bloom</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app__header">
+        <h1 id="title">Quote Bloom</h1>
+        <div class="controls">
+          <button id="lang-toggle" class="chip" aria-label="Switch language">中文</button>
+          <button id="theme-toggle" class="chip" aria-label="Toggle dark mode">🌙</button>
+        </div>
+      </header>
+
+      <section class="quote-card">
+        <p id="quote" class="quote"></p>
+        <p id="author" class="author"></p>
+      </section>
+
+      <button id="random-btn" class="primary-btn"></button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
